@@ -509,3 +509,9 @@ Caused by: org.h2.mvstore.MVStoreException: The write format 1 is smaller than t
 	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
 	at org.h2.mvstore.db.Store.<init>(Store.java:136)
 	... 55 more
+2025-01-21 16:30:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY PRODUCT PRODUCT[*]"; SQL statement:
+SELECT * FROM CATEGORY PRODUCT PRODUCT [42000-200]
+2025-01-21 16:30:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CATEGORY PRODUCT PRODUCT[*] PRODUCT"; SQL statement:
+SELECT * FROM CATEGORY PRODUCT PRODUCT PRODUCT [42000-200]

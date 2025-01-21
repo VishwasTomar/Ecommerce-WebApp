@@ -55,7 +55,14 @@
             <th scope="row" th:text="${iStat.index + 1}">1</th>
             <td th:text="${product.name}">Larry</td>
             <td th:text="${product.category.name}">Larry</td>
-            <td><img src="" height="100px" width="100px"  th:src="@{${'/productImages/' + product.imageName}}"></td>
+
+           <!-- <td><img src="" height="100px" width="100px"  th:src="@{${'/productImages/' + product.imageName}}"></td>
+           if my code is not displaying nicely my photo after running this line in comment which i can see that is only showing
+           picture after i refresh the whole project it is not happening at the same time when i am adding but now it will work
+           after adding next line of code and it is displayng so that's why i am using that line  you can delete
+           that line if it is not working you can uncomment this and then you should try okay-->
+
+            <td><img src="" height="100px" width="100px" th:src="@{/productImages/{imageName}(imageName=${product.imageName})}"></td>
 
             <td><a href="" th:href="@{/admin/product/delete/{id}(id=${product.id})}" class="btn btn-danger">Delete</a></td>
             <td><a href="" th:href="@{/admin/product/update/{id}(id=${product.id})}" class="btn btn-warning">Update</a></td>
