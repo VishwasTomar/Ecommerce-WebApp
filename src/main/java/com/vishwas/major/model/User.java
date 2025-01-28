@@ -1,4 +1,4 @@
-package com.shreyians.major.model;
+package com.vishwas.major.model;
 
 import lombok.Data;
 
@@ -18,14 +18,14 @@ public class User {
     @NotEmpty
     @Column(nullable = false)
     private  String firstName;
-    private String lastNamee;
+    private String lastName;
 
     @Column(nullable = false, unique = true)
     @NotEmpty
     @Email(message = "{errors.invalid_enail}")
     private String email;
 
-    @NotEmpty
+
     private String password;
 
     @ManyToMany(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
@@ -38,7 +38,7 @@ public class User {
 
     public User(User user) {
         this.firstName = user.getFirstName();
-        this.lastNamee = user.lastNamee;
+        this.lastName = user.lastName;
         this.email = user.getEmail();
         this.password = user.getPassword();
         this.roles = user.roles;

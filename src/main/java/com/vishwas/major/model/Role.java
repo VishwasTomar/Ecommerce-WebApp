@@ -1,4 +1,4 @@
-package com.shreyians.major.model;
+package com.vishwas.major.model;
 
 import lombok.Data;
 

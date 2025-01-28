@@ -1,4 +1,4 @@
-package com.shreyians.major.dto;
+package com.vishwas.major.dto;
 
 import lombok.Data;
 

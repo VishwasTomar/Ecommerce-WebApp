@@ -1,8 +1,7 @@
-package com.shreyians.major.service;
+package com.vishwas.major.service;
 
-import com.shreyians.major.model.Category;
-import com.shreyians.major.model.Product;
-import com.shreyians.major.repository.ProductRepository;
+import com.vishwas.major.model.Product;
+import com.vishwas.major.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

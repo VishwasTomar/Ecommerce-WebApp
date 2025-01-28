@@ -1,11 +1,10 @@
-package com.shreyians.major.controller;
+package com.vishwas.major.controller;
 
-import com.shreyians.major.dto.ProductDTO;
-import com.shreyians.major.model.Category;
-import com.shreyians.major.model.Product;
-import com.shreyians.major.service.CategoryService;
-import com.shreyians.major.service.ProductService;
-import org.apache.tomcat.jni.File;
+import com.vishwas.major.dto.ProductDTO;
+import com.vishwas.major.model.Category;
+import com.vishwas.major.model.Product;
+import com.vishwas.major.service.CategoryService;
+import com.vishwas.major.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

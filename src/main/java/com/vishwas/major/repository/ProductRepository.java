@@ -1,7 +1,6 @@
-package com.shreyians.major.repository;
+package com.vishwas.major.repository;
 
-import com.shreyians.major.model.Category;
-import com.shreyians.major.model.Product;
+import com.vishwas.major.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

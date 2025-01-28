@@ -1,4 +1,4 @@
-package com.shreyians.major.model;
+package com.vishwas.major.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
